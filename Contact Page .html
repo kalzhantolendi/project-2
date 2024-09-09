@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <style>
+        table {
+            width: 100%; /* Sets the width of the table to 100% of the parent element */
+            height: 500px; /* Sets a specific height */
+            border-collapse: collapse; /* Ensures no space between table cells */
+        }
+        th, td {
+            border: 1px solid black; /* Add borders to cells */
+            padding: 20px; /* Increase padding for larger cells */
+            text-align: center; /* Center text */
+        }
+    </style>
+
+<body style="background-color: rgb(162, 185, 230);">
+    <nav>
+        <ul>
+            
+            <li><a href="home page.html">About Me</a></li>
+            <li><a href="2nd.html">Resume</a></li>
+            <li><a href="PROGECT.html">Projects</a></li>
+            <li><a href="Contact Page .html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+     <!-- Contact Page CCS -->
+     <section id="contact">
+        <h1><mark>Contact Me</mark></h1>
+    <!--заполнит поле-->
+        <form action="/submit" method="post">
+            <!--bitti-->
+            <fieldset>
+                <legend>Contact Form</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
+
+    <!--бұл жерде table істелген  with HTML -->
+    <table border="4px">
+        <tr>
+            <td>Name:</td>
+         <td>
+            <input
+            
+            type="text"
+            placeholder="Type your name!"
+            required/>
+         </td> </tr>
+
+
+                <tr> <td>Email:</td>
+                   <td> <input
+                      type="email"
+                     placeholder="Type your email!"
+                    required/>
+                  </td>
+                </tr>
+                 <tr><td>Message:</td>
+                    <td><input type="message"
+                       width="10px"
+                       required/> </td>
+                
+                </tr>
+                <tr><td>
+                    <input type="button" name="submit!" value="submit!">
+                </td></tr>
+
+
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <fotter>
+        <bottom><a href="home page.html">NEXT</a></bottom>
+        <bottom><a href="PROGECT.html">BACK</a></bottom>
+      </fotter>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

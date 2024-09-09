@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - [Your Name]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Resume</h1>
+    </header>
+
+    <nav>
+        <ul>
+            
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li>Degree, Institution,2 Years in Jameco</li>
+            <li>Another Degree, Institution,3 Years i studied in english center in almaty andi i also inpruve my Skills</li>
+             <li>Now i am stiding in harvad <a href="https://www.harvard.edu/"> UNIVERSITY</a>  in AMERICA, by the way you can click this bottom and see my university</li>
+            </ul>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+        <ul>
+            <li>Job Title at Company Hewlett Packard Enterprise Company 
+                (Year2030 -2035 Year)</li>
+            <li>Another Job I olso want to create my company in USA but i an hard worker and i think i did it</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Skill 1 hard worker</li>
+            <li>Skill 2 many languages</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Achievements</h2>
+        <ul>
+            <li>Achievement 1 alumni in HARVARD university from magistrature</li>
+            <li>Achievement 2 ILTS 8.5</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Download Resume</h3>
+        <p><a href="2nd.html" download>Download my resume (PDF)</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2038 KALZHAN TOLENDI . All rights reserved.</p>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
